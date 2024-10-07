@@ -1,4 +1,4 @@
-from conv_block import conv_block
+from model.conv_block import conv_block
 from tensorflow import keras
 
 def RSU_Middle_Block(x, out_channels, intermediate_channels):

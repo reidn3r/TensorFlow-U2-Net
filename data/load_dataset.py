@@ -1,5 +1,5 @@
 import tensorflow as tf
-from load_image_mask import load_image_and_mask
+from data.load_image_mask import load_image_and_mask
 
 def load_dataset(img_paths, mask_paths, batch_size, img_size=128, shuffle=True):
     ds = tf.data.Dataset.from_tensor_slices((img_paths, mask_paths))

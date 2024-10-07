@@ -1,7 +1,7 @@
 from tensorflow import keras
 from keras.models import Model
-from rsu_block import RSU_Block
-from rsu_bridge_block import RSU_Middle_Block
+from model.rsu_block import RSU_Block
+from model.rsu_bridge_block import RSU_Middle_Block
 
 def u2net(input_shape):
     inputs = keras.layers.Input(input_shape)
