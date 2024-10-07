@@ -6,8 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv() 
 def single_shot(image_path:str, output_path:str, model):
-    img_size = os.getenv('img_size')
-    print(img_size)
+    img_size = int(os.getenv('img_size'))
 
     def preprocess_image(image_path,img_size):
         img = tf.io.read_file(image_path)
