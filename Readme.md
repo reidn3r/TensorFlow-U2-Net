@@ -10,14 +10,15 @@
 
 <hr>
 
+
 ### Sample Results:
-<p align="left">
-  <img align="left" width="50%" src="io/test.jpg"/>
-  <img align="right" width="50%" src="io/result.png"/>
+<p align="center">
+  <img width="45%" src="io/test.jpg" style="margin-right: 5%;"/>
+  <img width="45%" src="io/result.png"/>
 </p>
-<p align="left">
-  <img align="left" width="50%" src="assets/ship.jpg"/>
-  <img align="right" width="50%" src="assets/rembg.jpg"/>
+<p align="center">
+  <img width="45%" src="assets/ship.jpg" style="margin-right: 5%;"/>
+  <img width="45%" src="assets/rembg.jpg"/>
 </p>
 
 ## 🚀 Explore the Model on Hugging Face!
@@ -26,6 +27,7 @@
     <img src="https://img.shields.io/badge/-HuggingFace-FDEE21?style=for-the-badge&logo=HuggingFace&logoColor=black">
   </a>
 </p>
+
 
 **Example Code to Load the Model (Google Colab/Kaggle Notebook):**
 
@@ -55,8 +57,6 @@ model.summary()
   <p align="left">The model was trained on <a target="_blank" href="https://github.com/xuebinqin/DIS.git">DIS dataset</a> (about 5k images)</p>
 </p>
 
-<p>
-
 
 ### Details:
 <p align="left">
@@ -64,8 +64,6 @@ model.summary()
   <p align="left">The architecture:</p>
   <img align="center" src="assets/architecture.png"/>
 </p>
-
-<p>
 
 ### General Structure
 1. **🖼️ Encoder:**
